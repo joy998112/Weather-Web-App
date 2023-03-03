@@ -1,0 +1,167 @@
+body {
+    
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#heading{
+    font-family: comic sans MS;
+    margin-top: 10px;
+    
+}
+
+#out{
+    border-radius: 10px;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#barmain{
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cityinput {
+    background-color: rgb(208, 208, 208);
+    height: 25px;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: medium;
+    
+}
+
+::placeholder{
+    color: rgb(98, 98, 98);
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#image{
+    padding: 10px;
+    border-radius: 50%;
+}
+
+
+#daytime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#add{
+    background: rgb(208, 208, 208);
+    padding: 8px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+    border: none;
+}
+
+#citytemp{
+    font-family: comic sans MS;
+    height: 200px;
+    margin-left: 70px;
+    margin-right: 70px;
+    border-radius: 20px;
+    visibility: hidden;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#citytemp span{
+    display:grid;
+    grid-template-columns: 1fr;
+    
+}
+
+#citytemp h1{
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#data{
+
+    height: 250px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: comic sans MS;
+}
+
+
+#logo{
+    display: flex;
+}
+
+
+#citytemp p{
+    color: rgb(68, 68, 68);
+}
+
+#citytemp h1{
+    margin-bottom: 0;
+}
+
+#desc{
+    
+    background-color: rgb(208, 208, 208);
+    height: 250px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#air{
+    
+    background-color: rgb(208, 208, 208);
+    height: 250px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#data p{
+    color: rgb(68, 68, 68);
+}
+
+#descin{
+    visibility: hidden;
+}
+
+#airin{
+    visibility: hidden;
+}
+
+#citytemp img{
+    margin-right: 60px;
+}
